@@ -755,10 +755,18 @@ button {
 }
 
 ul.cont li {
-     color: #8a9397;
+     color: white;
      font-size: 17px;
      line-height: 32px;
      text-align: left;
+}
+
+ul.cont a {
+     color: white;
+}
+
+ul.cont a:hover {
+     color: #d63031;
 }
 
 .copyright {
@@ -812,3 +820,34 @@ ul.cont li {
 .logo-image {
      height: 55px;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+.logo-container {
+     position: relative;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     height: auto;
+     width: auto;
+}
+
+.logo{
+     font-family: 'Righteous', cursive;
+     font-size: 40px;
+     color: #FF3F2C;
+     display: block;
+     margin-bottom: 0px;
+     margin: 0;
+     padding: 0;
+}
+
+.slogan{
+     font-family: 'Righteous', cursive;
+     font-size: 25px;
+     position: absolute;
+     bottom: 60px;
+     left: 570px;
+     margin: 0;
+     padding: 0
+}  
